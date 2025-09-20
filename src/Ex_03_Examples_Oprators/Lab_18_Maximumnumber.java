@@ -17,9 +17,8 @@ public class Lab_18_Maximumnumber {
         System.out.println(result1);
         //age group
 
-        int age1=25;
-        int age2=65;
-        String result2= (age1>21? (age1<65? "adault": "sr citizen"):"minor");
+        int age=59;
+        String result2= (age<18? "minor": (age<=60? "adault": "sr citizen"));
         System.out.println(result2);
 
     }
